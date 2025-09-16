@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url('style.css');
 .wrapper-custom {
   /* border: 1px solid #000;
   background: radial-gradient(
@@ -28,3 +28,4 @@ input.price::placeholder {
   font-weight: 550;
   font-size: 14px;
 }
+
