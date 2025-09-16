@@ -15,7 +15,7 @@ the purpose of this project is to show a responsive business website.
 
 ## 🚀 How to Run
 -source code
-https://github.com/lovmehr/doorsaj.git
+https://github.com/lovmehr/VamBaz.git
 
 -demo ver
-https://lovmehr.github.io/doorsaj/
+https://lovmehr.github.io/VamBaz/
