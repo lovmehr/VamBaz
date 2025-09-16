@@ -1,4 +1,3 @@
-  <img width="600" height="505" alt="IMG_4897" src="https://github.com/user-attachments/assets/6553222a-14db-4942-9518-835f7aadf809" />
   ## VamBaz website
 this is a front-end project.
 Doorsaj is a store and this website contains products of it.
