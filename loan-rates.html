@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>وام و امتیاز | وام باز</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/IMG_4897.PNG" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/_loan-rates.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/font.css" />
+  </head>
+  <body class="bg-customize">
+    <!-- scroll to top button -->
+    <a href="javascript:;" id="scrolltotop">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <!-- navbar section -->
+    <header
+      class="container-fluid d-flex justify-content-between align-content-center sticky-top"
+    >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler border-0 shadow-sm"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu transition-all"
+            >
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-0 ms-lg-5"
+            id="navbarNavAltMarkup"
+          >
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/img/IMG_4897.PNG"
+                class="img-fluid rounded-3"
+                alt=""
+              />
+            </a>
+            <ul
+              class="navbar-nav fw-bold me-auto my-2 my-lg-0"
+              id="mainNav"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link active fs-6"
+                  aria-current="page"
+                  href="index.html"
+                  >صفحه اصلی</a
+                >
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link fs-6" href="loan-rates.html">وام و امتیاز</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link fs-6" href="about-us.html"> درباره ما </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center align-self-center me-0 me-lg-5">
+        <a
+          class="btn contact-btn text-Blue-3 blue-600 fw-bold fs-7 shadow-sm rounded-13 text-center"
+          href="tel:09382191612"
+        >
+          <i class="fa-light fa-phone align-middle fa-lg me-2"></i>
+          <span class="d-lg-inline d-none me-2">پشتیبانی:</span> 09382191612
+        </a>
+      </div>
+    </header>
+    <!-- title secrtion -->
+    <section class="wrapper-custom">
+      <div class="container p-60">
+        <div class="row d-flex flex-column mt-4">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center align-content-center"
+          >
+            <h1 id="title1" class="fs-1 fw-700 text-white text-center mt-3">
+              محاسبه وام
+            </h1>
+            <h1
+              id="title2"
+              class="fs-1 fw-700 text-white text-center mt-3 d-none"
+            >
+              فروش امتیاز
+            </h1>
+          </div>
+        </div>
+        <div class="row mt-5 d-flex g-4">
+          <!-- <ul
+            class="nav nav-pills mb-3 justify-content-center"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active px-5 py-3 blue-800 shadow-sm rounded-20 fw-700 text-white"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                محاسبه وام
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ms-2"
+                  width="29"
+                  height="29"
+                  viewBox="0 0 29 29"
+                  fill="none"
+                >
+                  <path
+                    d="M25.4248 19.4606C24.6826 21.2158 23.5217 22.7625 22.0437 23.9655C20.5656 25.1684 18.8154 25.9909 16.946 26.3612C15.0766 26.7314 13.145 26.6381 11.32 26.0894C9.49501 25.5406 7.83223 24.5532 6.47702 23.2134C5.12181 21.8735 4.11545 20.2221 3.54591 18.4035C2.97636 16.5849 2.86099 14.6545 3.20986 12.781C3.55874 10.9075 4.36124 9.148 5.54722 7.65631C6.73319 6.16461 8.26653 4.98614 10.0132 4.22394M25.1798 14.9221C25.8238 14.9221 26.3523 14.3983 26.2881 13.7578C26.0192 11.0793 24.8322 8.57624 22.9285 6.67296C21.0248 4.76969 18.5215 3.58329 15.843 3.31492C15.2013 3.25075 14.6786 3.77925 14.6786 4.42325V13.7566C14.6786 14.066 14.8016 14.3628 15.0204 14.5815C15.2392 14.8003 15.5359 14.9233 15.8453 14.9233L25.1798 14.9221Z"
+                    stroke="white"
+                    stroke-width="2.33333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link px-5 py-3 blue-800 shadow-sm rounded-20 fw-700 text-white"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                فروش امتیاز
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ms-2"
+                  width="28"
+                  height="29"
+                  viewBox="0 0 28 29"
+                  fill="none"
+                >
+                  <path
+                    d="M3.5 4.42218V23.0888C3.5 23.7077 3.74583 24.3012 4.18342 24.7388C4.621 25.1763 5.21449 25.4222 5.83333 25.4222H24.5M21 20.7555V11.4222M15.1667 20.7555V6.75551M9.33333 20.7555V17.2555"
+                    stroke="white"
+                    stroke-width="2.33333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul> -->
+          <div class="btn-group">
+            <a
+              id="btn1"
+              class="btn btn-lg shadow-sm border-0 text-white active fs-5 fw-700 py-3 transition-all"
+              onclick="showInfo('info1' ,'title1', this)"
+              aria-current="page"
+              style="background: #1c2b8e"
+            >
+              محاسبه وام
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+                class="ms-2"
+              >
+                <path
+                  d="M25.4248 19.4606C24.6826 21.2158 23.5217 22.7625 22.0437 23.9655C20.5656 25.1684 18.8154 25.9909 16.946 26.3612C15.0766 26.7314 13.145 26.6381 11.32 26.0894C9.49501 25.5406 7.83223 24.5532 6.47702 23.2134C5.12181 21.8735 4.11545 20.2221 3.54591 18.4035C2.97636 16.5849 2.86099 14.6545 3.20986 12.781C3.55874 10.9075 4.36124 9.148 5.54722 7.65631C6.73319 6.16461 8.26653 4.98614 10.0132 4.22394M25.1798 14.9221C25.8238 14.9221 26.3523 14.3983 26.2881 13.7578C26.0192 11.0793 24.8322 8.57624 22.9285 6.67296C21.0248 4.76969 18.5215 3.58329 15.843 3.31492C15.2013 3.25075 14.6786 3.77925 14.6786 4.42325V13.7566C14.6786 14.066 14.8016 14.3628 15.0204 14.5815C15.2392 14.8003 15.5359 14.9233 15.8453 14.9233L25.1798 14.9221Z"
+                  stroke="white"
+                  stroke-width="2.33333"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a
+              id="btn2"
+              class="btn btn-lg shadow-sm border-0 text-white fs-5 fw-700 py-3 sale-rate transition-all"
+              onclick="showInfo('info2' , 'title2', this)"
+              style="background: #101f81"
+            >
+              فروش امتیاز
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="29"
+                viewBox="0 0 28 29"
+                fill="none"
+                class="ms-2"
+              >
+                <path
+                  d="M3.5 4.42218V23.0888C3.5 23.7077 3.74583 24.3012 4.18342 24.7388C4.621 25.1763 5.21449 25.4222 5.83333 25.4222H24.5M21 20.7555V11.4222M15.1667 20.7555V6.75551M9.33333 20.7555V17.2555"
+                  stroke="white"
+                  stroke-width="2.33333"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="container-fluid tab-wrapper my-5">
+      <div
+        class="tab-content ms-0 ms-lg-5 mt-5 d-flex flex-row"
+        id="pills-tabContent"
+      >
+        <div
+          class="tab-pane fade show active p-2"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <form
+            class="row g-3 justify-content-lg-start justify-content-center text-center align-content-center"
+          >
+            <div
+              class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <label for="price" class="visually-hidden">price</label>
+              <input
+                type="text"
+                class="form-control px-4 py-2 shadow-sm"
+                id="price"
+                placeholder="مبلغ قسط"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  background: #fff;
+                "
+              />
+            </div>
+            <div
+              class="col-4 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <select
+                class="form-select px-4 py-2 shadow-sm"
+                aria-label="Default select example"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  background: #f5f5f5;
+                "
+              >
+                <option selected>انتخاب تعداد ماه</option>
+                <option value="1">همه</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+                <option value="3">6</option>
+                <option value="3">7</option>
+                <option value="3">8</option>
+                <option value="3">9</option>
+                <option value="3">10</option>
+                <option value="3">11</option>
+                <option value="3">12</option>
+                <option value="3">13</option>
+                <option value="3">14</option>
+                <option value="3">15</option>
+                <option value="3">16</option>
+                <option value="3">17</option>
+                <option value="3">18</option>
+                <option value="3">19</option>
+                <option value="3">20</option>
+                <option value="3">21</option>
+                <option value="3">22</option>
+                <option value="3">23</option>
+                <option value="3">24</option>
+              </select>
+            </div>
+            <div
+              class="col-4 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <button
+                type="submit"
+                class="btn btn-lg px-4 py-2 text-white fw-700 fs-8 shadow-sm"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid #a2d3f9;
+                  background: #1c2b8e;
+                "
+              >
+                محـاسبـه
+              </button>
+            </div>
+          </form>
+          <div class="container bg-white p-3 shadow-sm rounded-15 mt-custom">
+            <div class="row d-flex flex-column">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-start align-content-center"
+              >
+                <h4 class="fs-6 fw-700 my-3 text-black p-1 border-bottom">
+                  راهنمای استفاده
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade p-2"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <form
+            class="row g-3 justify-content-lg-start justify-content-center text-center align-content-center"
+          >
+            <div
+              class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <label for="price" class="visually-hidden">price</label>
+              <input
+                type="text"
+                class="form-control px-4 py-2 shadow-sm"
+                id="price"
+                placeholder=" مقدار درخواست وام"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  background: #fff;
+                "
+              />
+            </div>
+            <div
+              class="col-4 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <select
+                class="form-select px-4 py-2 shadow-sm"
+                aria-label="Default select example"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  background: #f5f5f5;
+                "
+              >
+                <option selected>انتخاب تعداد ماه</option>
+                <option value="1">همه</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+                <option value="3">6</option>
+                <option value="3">7</option>
+                <option value="3">8</option>
+                <option value="3">9</option>
+                <option value="3">10</option>
+                <option value="3">11</option>
+                <option value="3">12</option>
+                <option value="3">13</option>
+                <option value="3">14</option>
+                <option value="3">15</option>
+                <option value="3">16</option>
+                <option value="3">17</option>
+                <option value="3">18</option>
+                <option value="3">19</option>
+                <option value="3">20</option>
+                <option value="3">21</option>
+                <option value="3">22</option>
+                <option value="3">23</option>
+                <option value="3">24</option>
+              </select>
+            </div>
+            <div
+              class="col-4 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 justify-content-lg-start justify-content-center text-center align-content-center"
+            >
+              <button
+                type="submit"
+                class="btn btn-lg px-4 py-2 text-white fw-700 fs-8 shadow-sm"
+                style="
+                  border-radius: 15px;
+                  border: 1px solid #a2d3f9;
+                  background: #1c2b8e;
+                "
+              >
+                محـاسبـه
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> -->
+    <!-- inputs & hint section -->
+    <section id="info1" class="container my-5">
+      <form class="row justify-content-center text-center align-content-center">
+        <div
+          class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 justify-content-start text-start align-content-center mb-3"
+        >
+          <input
+            type="text"
+            class="form-control price px-4 py-3 px-lg-5 shadow-sm fw-550 text-start"
+            id="price"
+            placeholder="مبلغ قسط"
+            style="
+              border-radius: 15px;
+              border: 1px solid rgba(0, 0, 0, 0.1);
+              background: #fff;
+              color: #2438b9;
+            "
+          />
+        </div>
+        <div
+          class="col-6 col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 justify-content-start text-center align-content-center mb-3"
+        >
+          <select
+            class="form-select px-4 py-3 px-lg-5 shadow-sm fw-550 fs-8 text-start"
+            aria-label="Default select example"
+            style="
+              border-radius: 15px;
+              border: 1px solid rgba(0, 0, 0, 0.1);
+              background: #f5f5f5;
+              color: #2438b9;
+            "
+          >
+            <option selected>انتخاب تعداد ماه</option>
+            <option value="1">همه</option>
+
+            <option value="3">10 ماه</option>
+            <option value="3">11 ماه</option>
+            <option value="3">12 ماه</option>
+            <option value="3">13 ماه</option>
+            <option value="3">14 ماه</option>
+            <option value="3">15 ماه</option>
+            <option value="3">16 ماه</option>
+            <option value="3">17 ماه</option>
+            <option value="3">18 ماه</option>
+            <option value="3">19 ماه</option>
+            <option value="3">20 ماه</option>
+            <option value="3">21 ماه</option>
+            <option value="3">22 ماه</option>
+            <option value="3">23 ماه</option>
+            <option value="3">24 ماه</option>
+          </select>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 justify-content-center text-center align-content-center mb-3"
+        >
+          <a
+            href="factor.html"
+            type="submit"
+            class="btn btn-lg px-4 py-3 px-lg-5 w-100 text-white fw-550 fs-8 shadow-sm transition-all"
+            style="
+              border-radius: 15px;
+              border: 1px solid #a2d3f9;
+              background: #1c2b8e;
+            "
+          >
+            محـاسبـه
+          </a>
+        </div>
+      </form>
+      <!-- hint section -->
+      <div class="container bg-white p-4 mt-5 rounded-15 shadow-sm">
+        <div class="row d-flex flex-column">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4 class="fs-5 px-3 my-2 py-3 fw-700 text-black">
+              راهنمای استفاده
+            </h4>
+            <hr style="color: rgba(0, 0, 0, 0.5)" />
+            <ul class="px-4 px-lg-5 py-2">
+              <li class="fs-7 fw-550 text-black lh-lg py-2">
+                <span class="me-2">توجه !</span> وب سایت به طور اتوماتیک مبلغ
+                پیشنهادی را به شما ارائه خواهد داد.
+              </li>
+              <li class="fs-7 fw-550 text-black lh-lg py-2">
+                <span class="me-2">توجه !</span>
+                 قیمت های اعلامی سایت صرفا جهت اطلاع و میانگینی از نرخ کشور می
+                باشد.
+              </li>
+            </ul>
+            <hr style="color: rgba(0, 0, 0, 0.5)" />
+            <ul class="px-4 px-lg-5 py-2">
+              <li class="fs-6 fw-light text-black lh-lg py-2">
+                برای محاسبه مبلغ وام ابتدا مبلغ قسط تایید شده توسط مرآت را در
+                قسمت مبلغ قسط وارد کنید و محاسبه را انجام دهید.
+              </li>
+              <li class="fs-6 fw-light text-black lh-lg py-2">
+                در صورتی که قیمت خاصی بابت خرید امتیاز وام در نظر دارید آن را در
+                قسمت هزینه خرید امتیاز وارد کنید و سپس محاسبه را انجام دهید.
+              </li>
+            </ul>
+            <div class="container-fluid">
+              <img src="assets/img/hint.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info2" class="container my-5 d-none">
+      <form class="row justify-content-center text-center align-content-center">
+        <div
+          class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 justify-content-start text-start align-content-center mb-3"
+        >
+          <input
+            type="text"
+            class="form-control price px-4 py-3 px-lg-5 shadow-sm fw-550 text-start"
+            id="price"
+            placeholder=" مقدار درخواست وام"
+            style="
+              border-radius: 15px;
+              border: 1px solid rgba(0, 0, 0, 0.1);
+              background: #fff;
+              color: #2438b9;
+            "
+          />
+        </div>
+        <div
+          class="col-6 col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 justify-content-start text-center align-content-center mb-3"
+        >
+          <select
+            class="form-select px-4 py-3 px-lg-5 shadow-sm fw-550 fs-8 text-start"
+            aria-label="Default select example"
+            style="
+              border-radius: 15px;
+              border: 1px solid rgba(0, 0, 0, 0.1);
+              background: #f5f5f5;
+              color: #2438b9;
+            "
+          >
+            <option selected>انتخاب تعداد ماه</option>
+            <option value="1">همه</option>
+
+            <option value="3">10 ماه</option>
+            <option value="3">11 ماه</option>
+            <option value="3">12 ماه</option>
+            <option value="3">13 ماه</option>
+            <option value="3">14 ماه</option>
+            <option value="3">15 ماه</option>
+            <option value="3">16 ماه</option>
+            <option value="3">17 ماه</option>
+            <option value="3">18 ماه</option>
+            <option value="3">19 ماه</option>
+            <option value="3">20 ماه</option>
+            <option value="3">21 ماه</option>
+            <option value="3">22 ماه</option>
+            <option value="3">23 ماه</option>
+            <option value="3">24 ماه</option>
+          </select>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 justify-content-center text-center align-content-center mb-3"
+        >
+          <a
+            href="factor.html"
+            type="submit"
+            class="btn btn-lg px-4 py-3 px-lg-5 w-100 text-white fw-550 fs-8 shadow-sm transition-all"
+            style="
+              border-radius: 15px;
+              border: 1px solid #a2d3f9;
+              background: #1c2b8e;
+            "
+          >
+            محـاسبـه
+          </a>
+        </div>
+      </form>
+      <!-- hint section -->
+      <div class="container bg-white p-4 mt-5 rounded-15 shadow-sm">
+        <div class="row d-flex flex-column">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4 class="fs-5 px-3 my-2 py-3 fw-700 text-black">
+              راهنمای استفاده
+            </h4>
+            <hr style="color: rgba(0, 0, 0, 0.5)" />
+            <ul class="px-4 px-lg-5 py-2">
+              <li class="fs-7 fw-550 text-black lh-lg py-2">
+                <span class="me-2">توجه !</span> وب سایت به صورت اتوماتیک نرخ
+                خرید خود را به شما ارائه خواهد داد.
+              </li>
+              <li class="fs-7 fw-550 text-black lh-lg py-2">
+                <span class="me-2">توجه !</span>
+                قیمت های اعلامی سایت صرفا جهت اطلاع و میانگینی از نرخ کشور می
+                باشد.
+              </li>
+            </ul>
+            <hr style="color: rgba(0, 0, 0, 0.5)" />
+            <ul class="px-4 px-lg-5 py-2">
+              <li class="fs-6 fw-light text-black lh-lg py-2">
+                جهت تبدیل امتیاز ابتدا عدد و تعداد ماه نمایش داده شده در قسمت
+                برآورد وام پیشخوان را وارد کنید.
+              </li>
+              <li class="fs-6 fw-light text-black lh-lg py-2">
+                سپس تعداد ماهی که میخواهید به آن تبدیل شود را انتخاب نموده و
+                محاسبه را انجام دهید
+              </li>
+            </ul>
+            <div class="container-fluid">
+              <img src="assets/img/hint.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- key points -->
+    <section class="container-fluid key-sec py-3 p-lg-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-content-center mt-custom"
+          >
+            <h3
+              class="fs-4 text-center key-title fw-bold text-blue-300 px-4 px-lg-5 py-3 d-inline-block bg-white shadow-sm rounded-4 text-nowrap"
+            >
+              نکات بسیار مهم درباره وام بانک رسالت
+            </h3>
+          </div>
+        </div>
+        <div class="key-wrapper mt-2 px-3 px-lg-4 py-4 mb-custom">
+          <div class="row">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-column justify-content-start"
+            >
+              <h5
+                class="fs-6 fw-800 my-2 px-2 py-3 lh-lg d-inline-block"
+                style="color: #1b5ab8; letter-spacing: -0.32px"
+              >
+                <i class="fa-solid fa-angles-left me-3"></i>
+                افراد با مدارک زیر میتوانند در بانک قرض الحسنه رسالت تقاضای
+                دریافت وام داشته باشند.
+              </h5>
+              <ul
+                class="list-group d-inline-block list-disc fs-7 fw-700 text-blue-600 px-3 px-lg-4 text-start"
+              >
+                <li class="p-3 ms-3 ms-lg-2">
+                  داشتن حساب در بانک قرض الحسنه رسالت
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  داشتن کارت پایان خدمت برای آقایان
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  داشتن فیش حقوقی ادارت دولتی، شرکت های خصوصی، نیروهای مسلح،
+                  کارخانجات دولتی و خصوصی، بازنشستگان، مستمری بگیران.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  کسبه دارای جواز کسب که بیشتر از 3 ماه از تاریخ جواز کسب آنان
+                  گذشته باشد و تاریخ جواز کسب آن ها منقضی نشده باشد.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  دارندگان برگه سبز خودرو مسافربری، مینی بوس، اتوبوس و ...
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  افراد دارای برگه سبز خودرو های باربری، وانت، نیسان، کامیونت،
+                  کامیون، کشنده های سنگین و ...
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  افراد دارای برگه سبر ماشین آلات کشاورزی، تراکتور، کمباین و ...
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  افراد دارای ثبت شرکت های رسمی همراه با اساس نامه گواهی ثبت
+                  شرکت
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mt-4">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-column justify-content-center align-content-center"
+            >
+              <h3
+                class="warning-title position-relative fs-4 text-center key-title fw-bolder text-white px-4 px-lg-5 py-3 d-inline-block"
+              >
+                توجه!
+              </h3>
+            </div>
+          </div>
+          <div class="row key-wrapper p-3 p-lg-4 mb-custom">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-column justify-content-start"
+            >
+              <ul
+                class="list-group d-inline-block list-disc mb-custom fs-7 fw-700 text-blue-600 px-3 px-lg-4 text-start"
+              >
+                <li class="p-3 ms-3 ms-lg-2">
+                  برای دریافت مجدد وام از بانک قرض الحسنه رسالت، باید باید و باید
+                  اقساط وام قبلی درست و به موعد پرداخت شود.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  در صورتی که اقساط با تاخیر پرداخت شوند مجددا به شخص وام تعلق
+                  نخواهد گرفت.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  مبلغ قابل دریافت وام از بانک رسالت فقط و فقط بعد از انجام اعتبار
+                  سنجی در سامانه مرآت مشخص میشود.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  در صورتی که تمایل به خرید امتیاز وام دارید، به دلیل متغیر بودن
+                  قیمت امتیاز، هزینه پرداختی شما بروز محاسبه میگردد.
+                </li>
+              </ul>
+            </div>
+          </div> -->
+
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-content-center"
+          >
+            <div class="hr"></div>
+            <h3
+              class="fs-4 text-center key-title fw-bold text-blue-300 px-4 px-lg-5 d-inline-block text-white text-nowrap"
+            >
+              توجه!
+            </h3>
+            <div class="hr"></div>
+          </div>
+        </div>
+        <div class="key-wrapper mt-2 px-3 px-lg-4 py-4 mb-custom">
+          <div class="row">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-column justify-content-start"
+            >
+              <ul
+                class="list-group d-inline-block list-disc fs-7 fw-700 text-blue-600 px-3 px-lg-4 text-start"
+              >
+                <li class="p-3 ms-3 ms-lg-2">
+                  برای دریافت مجدد وام از بانک قرض الحسنه رسالت، باید باید و
+                  باید اقساط وام قبلی درست و به موعد پرداخت شود.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  در صورتی که اقساط با تاخیر پرداخت شوند مجددا به شخص وام تعلق
+                  نخواهد گرفت.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  مبلغ قابل دریافت وام از بانک رسالت فقط و فقط بعد از انجام
+                  اعتبار سنجی در سامانه مرآت مشخص میشود.
+                </li>
+                <li class="p-3 ms-3 ms-lg-2">
+                  در صورتی که تمایل به خرید امتیاز وام دارید، به دلیل متغیر بودن
+                  قیمت امتیاز، هزینه پرداختی شما بروز محاسبه میگردد.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section -->
+    <section class="container-fluid blue-0">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center justify-content-lg-start align-content-center mt-5"
+          >
+            <h4 class="text-blue-500-2 mt-2 mt-lg-4 fs-3 fw-bold">
+              سوالات متدوال خدمات وام باز
+            </h4>
+          </div>
+          <div class="row mb-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1240"
+              height="2"
+              viewBox="0 0 1240 2"
+              fill="none"
+            >
+              <path d="M1240 1H0" stroke="#101F81" />
+            </svg>
+          </div>
+        </div>
+        <div class="row mb-custom">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-start"
+          >
+            <div class="accordion w-100 text-start" id="accordionExample">
+              <div class="accordion-item rounded-20 mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button rounded-20 border-bottom-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    برای دریافت وام
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div
+                    class="accordion-body border-top-0 rounded-20 shadow-sm lh-lg"
+                  >
+                    برای گرفتن وام، لازمه اول اعتبارسنجی انجام بشه. اگه قبلاً
+                    اعتبارسنجی کردی، کافیه نتیجه‌شو برامون بفرستی. اگه هنوز
+                    اعتبارسنجی نداری، می‌تونی مدارک لازم رو برامون ارسال کنی، یا
+                    خیلی راحت با پشتیبانی ما هماهنگ بشی تا راهنماییت کنیم.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-20 mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button rounded-20 collapsed border-bottom-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    اعتبارسنجی در وام باز چطور انجام میشه؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div
+                    class="accordion-body border-top-0 shadow-sm rounded-20 lh-lg"
+                  >
+                    اعتبارسنجی شما از طریق سامانه مرآت و تحت نظارت بانک مرکزی
+                    انجام میشه. این فرایند کاملاً رسمی و معتبره و کمک می‌کنه تا
+                    شرایط دریافت وام راحت‌تر و شفاف‌تر بشه.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-20 mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed rounded-20 border-bottom-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    دوره بازپرداخت وام چقدره؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div
+                    class="accordion-body border-top-0 shadow-sm rounded-20 lh-lg"
+                  >
+                    بازپرداخت وام بین ۱۰ تا ۲۴ ماهه هست، اما نکته خوبش اینه که
+                    خودت می‌تونی مدت زمانشو انتخاب کنی؛ بسته به شرایط و توان
+                    مالی‌ات، زمان بازپرداخت رو تعیین می‌کنی.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-20 mb-3">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed rounded-20 border-bottom-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    تامین امتیاز وام باز چطور انجام میشه؟
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div
+                    class="accordion-body border-top-0 shadow-sm rounded-20 lh-lg"
+                  >
+                    ما در مجموعه «وام باز»، امتیاز بانکی مورد نیاز رو از طریق
+                    حساب‌های فعال و معتبر شرکتی تأمین می‌کنیم. این حساب‌ها
+                    عملکرد مالی مناسبی دارن و از طرف مجموعه تضمین میشه که
+                    امتیازشون تا زمان نهایی شدن وام کاهش پیدا نکنه. پس با خیال
+                    راحت می‌تونی از امتیاز استفاده کنی و مراحل دریافت وامت رو
+                    پیش ببری.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <!-- lg section -->
+    <footer class="container-fluid shadow-lg p-60 d-none d-lg-block">
+      <div class="container p-4 p-lg-5 rounded-custom bg-white shadow-sm">
+        <div class="row d-flex justify-content-start align-content-center">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mb-lg-0">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/img/IMG_4897.PNG"
+                class="img-fluid rounded-3 footer-logo"
+                alt=""
+              />
+            </a>
+            <p class="fs-7 p-1 text-black mt-1 fw-light">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ms-lg-5 mb-4 mb-lg-0"
+          >
+            <h5 class="fs-6 fw-700 p-1 text-black">درباره ما</h5>
+            <ul class="list-group" style="list-style: none">
+              <li class="list-group-item-action rounded-3 p-2">
+                <a
+                  href="#"
+                  class="text-decoration-none text-black fs-7 fw-light transition-all footer-link"
+                >
+                  سوالات متداول
+                </a>
+              </li>
+              <li class="list-group-item-action rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-black fs-7 fw-light transition-all footer-link"
+                  href="tel:0123456789"
+                >
+                  قوانین و مقررات
+                </a>
+              </li>
+              <li class="list-group-item-action rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-black fs-7 fw-light transition-all footer-link"
+                  href="tel:0123456789"
+                >
+                  راهنمای دریافت وام
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-lg-0">
+            <h5 class="fs-6 fw-700 p-1 text-black">راه های ارتباطی</h5>
+            <ul class="list-group" style="list-style: none">
+              <li class="list-group-item-action rounded-3 p-2">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@vambaz.com"
+                  target="_blank"
+                  class="text-decoration-none text-black fs-7 fw-light transition-all footer-link"
+                >
+                  <span>
+                    <i class="fa-regular fa-envelope align-middle me-1"></i>
+                    info@vambaz.com
+                  </span>
+                </a>
+              </li>
+              <li class="list-group-item-action rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-black fs-7 fw-light transition-all footer-link"
+                  href="tel:09382191612"
+                >
+                  <i class="fa-light fa-phone align-middle fa-lg me-2"></i>
+                  <span class="d-lg-inline d-none me-2"
+                    >پشتیبانی: <span class="ms-1">09382191612</span></span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- sm section -->
+    <footer class="container-fluid shadow-lg p-60 d-block d-lg-none">
+      <div class="p-4 p-lg-5 rounded-custom shadow-sm">
+        <div class="row d-flex justify-content-start align-content-center">
+          <div class="col-12 col-sm-12 col-md-4 mb-5">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/img/footer-sm.png"
+                class="img-fluid rounded-3 footer-logo"
+                alt=""
+              />
+            </a>
+            <p class="fs-7 p-1 text-white mt-3 fw-light">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 mb-5">
+            <h5 class="fs-6 fw-700 p-1 text-white">درباره ما</h5>
+            <ul class="list-group" style="list-style: none">
+              <li class="rounded-3 p-2">
+                <a
+                  href="#"
+                  class="text-decoration-none text-white fs-7 fw-light transition-all footer-link"
+                >
+                  سوالات متداول
+                </a>
+              </li>
+              <li class="rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-white fs-7 fw-light transition-all footer-link"
+                  href="tel:0123456789"
+                >
+                  قوانین و مقررات
+                </a>
+              </li>
+              <li class="rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-white fs-7 fw-light transition-all footer-link"
+                  href="tel:0123456789"
+                >
+                  راهنمای دریافت وام
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-4 mb-5">
+            <h5 class="fs-6 fw-700 text-white">راه های ارتباطی</h5>
+            <ul class="list-group" style="list-style: none">
+              <li class="rounded-3 p-2">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@vambaz.com"
+                  target="_blank"
+                  class="text-decoration-none text-white fs-7 fw-light transition-all footer-link"
+                >
+                  <span>
+                    <i class="fa-regular fa-envelope align-middle me-1"></i>
+                    info@vambaz.com
+                  </span>
+                </a>
+              </li>
+              <li class="rounded-3 p-2">
+                <a
+                  class="text-decoration-none text-white fs-7 fw-light transition-all footer-link"
+                  href="tel:09382191612"
+                >
+                  <i class="fa-light fa-phone align-middle fa-lg me-2"></i>
+                  <span class="d-lg-inline me-2"
+                    >پشتیبانی: <span class="ms-1">09382191612</span></span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- copy-right section -->
+    <section class="container-fluid">
+      <div class="row copy-right">
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-content-center"
+        >
+          <small
+            class="d-inline-block fs-7 fw-700 p-2 my-2 text-center align-self-stretch"
+            >&copy; کلیه حقوق این سایت متعلق به شرکت پلانا است.
+          </small>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- navbar btn -->
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggler").click(function () {
+          $(".navbar-toggler > .feather-menu").toggleClass(
+            " navbar-toggler-btn"
+          );
+        });
+      });
+    </script>
+    <!-- scroll to top btn -->
+    <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+          $("#scrolltotop").css(
+            {
+              bottom: "60px",
+            },
+            1000
+          );
+        } else {
+          $("#scrolltotop").css(
+            {
+              bottom: "-60px",
+            },
+            1000
+          );
+        }
+      });
+      $("#scrolltotop").click(function (e) {
+        e.preventDefault();
+        $("body,html").animate(
+          {
+            scrollTop: 0,
+          },
+          100
+        );
+      });
+    </script>
+
+    <script>
+      function showInfo(infoId, titleId, clickedButton) {
+        // مخفی کردن همه اطلاعات و عنوان‌ها
+        ["info1", "info2"].forEach((id) => {
+          document.getElementById(id).classList.add("d-none");
+        });
+        ["title1", "title2"].forEach((id) => {
+          document.getElementById(id).classList.add("d-none");
+        });
+
+        // نمایش اطلاعات و عنوان مربوطه
+        document.getElementById(infoId).classList.remove("d-none");
+        document.getElementById(titleId).classList.remove("d-none");
+
+        // غیرفعال کردن همه دکمه‌ها
+        ["btn1", "btn2"].forEach((id) => {
+          document.getElementById(id).classList.remove("active");
+        });
+
+        // فعال کردن دکمه کلیک شده
+        clickedButton.classList.add("active");
+      }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll("#mainNav .nav-link");
+        const currentPage = window.location.pathname;
+
+        navLinks.forEach((link) => {
+          const linkPage = link.getAttribute("href");
+          if (currentPage.includes(linkPage)) {
+            link.classList.add("active");
+          } else {
+            link.classList.remove("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

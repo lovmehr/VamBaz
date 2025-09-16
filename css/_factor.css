@@ -1,0 +1,24 @@
+@import url(style.css);
+
+.bg-customize {
+  background: #f5fbff;
+}
+.wrapper-custom {
+  border: 1px solid #000;
+  background: radial-gradient(
+    152.37% 117.49% at 75.09% 16.11%,
+    #101f81 0%,
+    #243bcf 80.88%
+  );
+  align-self: stretch;
+}
+th {
+  color: #767676;
+}
+/* .factor-wrapper {
+  height: 1311px;
+  flex-shrink: 0;
+} */
+.table-container {
+  overflow-x: auto;
+}
