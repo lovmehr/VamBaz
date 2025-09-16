@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url('style.css');
 @media screen and (max-width: 992px) {
   h2 {
     font-size: 18px !important;
@@ -58,3 +58,4 @@
   font-weight: 550;
   font-size: 13px;
 }
+
